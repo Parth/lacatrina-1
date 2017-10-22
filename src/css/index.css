@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.carousel {
+}
+.btn {
+	margin: 5px;
+}
+
+#navWrap {
+	margin-bottom: 0;
+}
+
+#banner {
+	background: url('/img/lacatrina-inside.jpg') no-repeat center center fixed;
+	background-size:cover;
+	background-attachment: local;
+	padding: 0 0 20rem 0;
+}
+#banner h1 {
+	color: white !important;
+}
+nav, footer .card {
+	background: #000 !important;
+}
+footer .card {
+	color: #ffd633;
+
+}
+footer {
+	background: #7700b3 !important;
+}
+#banner .card-panel {
+	background: #7700b3 !important;
+	max-width: 100%;
+	width: 700px;
+	margin:auto;
+	border-radius: 0px 0px 20px 20px;
+}
