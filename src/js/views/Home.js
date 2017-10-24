@@ -10,8 +10,8 @@ class Home extends Component {
 						<Col s={12}>
 							<CardPanel className="teal lighten-4 black-text">
 								<h1>La Catrina</h1>
-									<a href="https://grubhub.com/" target="_blank" rel="noopener noreferrer" className='btn light-blue waves-effect waves-light'>Order</a>
-								<a href="#menu" className='btn light-blue waves-effect waves-light'>See Menu</a>
+									<a href="https://grubhub.com/" target="_blank" rel="noopener noreferrer" className='btn amber waves-effect waves-light'>Order</a>
+								<a href="#menu" className='btn amber waves-effect waves-light'>See Menu</a>
 						<Carousel
 							//fixedItem={<div><a href="#menu" className='btn light-blue'>See Menu</a> <a href="#order" className='btn light-blue'>Order</a></div>}
 							className='carousel'
