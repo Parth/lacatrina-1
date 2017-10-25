@@ -8,7 +8,7 @@ class MenuItem extends Component {
 				<Card className="menuItem">
 					<Row>
 						<Col s={4}>
-							<MediaBox src={this.props.img} caption={this.props.desc} height="128"/>
+							<MediaBox src={"img/" + this.props.img} caption={this.props.desc} height="128"/>
 						</Col>
 						<Col s={8} style={{height: '100%'}} className="valign-wrapper">
 							<div>
