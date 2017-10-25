@@ -33,7 +33,7 @@ class MenuItem extends Component {
 						</Col>
 						<Col s={12} m={6} className="right-align">
 							<br/>
-							<a href="#">Order Now on Grubhub!</a>
+							<a href="https://grubhub.com" target="_blank" rel="noopener noreferrer">Order Now on Grubhub!</a>
 						</Col>
 					</Row>
 				</Card>
