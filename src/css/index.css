@@ -39,3 +39,6 @@ footer {
 	margin:auto;
 	border-radius: 0px 0px 20px 20px;
 }
+.menuItem {
+	height: 95%;
+}
