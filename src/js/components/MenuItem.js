@@ -4,13 +4,13 @@ import { Row, Col, Card, MediaBox } from 'react-materialize';
 class MenuItem extends Component {
 	render() {
 		return (
-			<Col s={12} m={6}>
+			<Col s={12} m={6} className="equalize">
 				<Card className="menuItem">
 					<Row>
-						<Col s={4}>
+						<Col s={4} className="equalize-mi">
 							<MediaBox src={"img/" + this.props.img} caption={this.props.desc} height="128"/>
 						</Col>
-						<Col s={8} style={{height: '100%'}} className="valign-wrapper">
+						<Col s={8} style={{height: '100%'}} className="equalize-mi valign-wrapper">
 							<div>
 								<h4>{this.props.title}</h4>
 							</div>
