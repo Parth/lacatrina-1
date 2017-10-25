@@ -9,7 +9,9 @@ class Menu extends Component {
 			<div className="container">
 				<h2>Menu</h2>
 				<Row>
-					<MenuItem img="img/tacos.jpg" title="Tacos" desc="Fresh made corn tortillas filled with choice of meat, cilantro and onions" prices={[ "1 @ $2.50", "3 @ $7" ]}/>
+					{MenuData.classics.items.map((item) =>
+						<MenuItem img={item.img} title={item.title} desc={item.desc} prices={item.prices}/>
+					)}
 				</Row>
 			</div>
 		);
