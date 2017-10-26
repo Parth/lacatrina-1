@@ -1,5 +1,8 @@
+//import 'materialize-css/dist/js/materialize.js';
 import React, { Component } from 'react';
 import { Route, Switch } from 'react-router-dom'
+import $ from 'jquery';
+import matchHeight from 'jquery-match-height';
 
 import AppNav from './AppNav.js';
 import AppFooter from './AppFooter.js';
@@ -19,15 +22,29 @@ const Main = () => (
 )
 
 class App extends Component {
-  render() {
-    return (
-		<div>
-			<AppNav></AppNav>
-			<Main/>
-			<AppFooter></AppFooter>
-		</div>
-    );
-  }
+	componentDidMount() {
+		$(document).ready(function(){
+			$('.equalize-mi').matchHeight();
+			$('.equalize').matchHeight();
+		});
+	}
+
+	componentDidUpdate() {
+		$(document).ready(function(){
+			$('.equalize-mi').matchHeight();
+			$('.equalize').matchHeight();
+		});
+	}
+
+	render() {
+		return (
+			<div>
+				<AppNav/>
+				<Main/>
+				<AppFooter/>
+			</div>
+		);
+	}
 }
 
 export default App;
